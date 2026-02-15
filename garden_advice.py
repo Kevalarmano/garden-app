@@ -8,7 +8,7 @@ has been replaced with dictionaries for better maintainability.
 
 from typing import Dict
 
-
+# Mapping of month numbers to seasons (Southern Hemisphere)
 # ----------------------------
 # CONSTANTS (no hardcoded if-chains)
 # ----------------------------

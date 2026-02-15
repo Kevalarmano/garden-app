@@ -39,7 +39,7 @@ def parse_month_input(user_input: str) -> int:
     """
     month = int(user_input.strip())
     if month < 1 or month > 12:
-        raise ValueError("Month must be between 1 and 12.")
+        raise ValueError("Month must be an integer between 1 and 12.")
     return month
 
 

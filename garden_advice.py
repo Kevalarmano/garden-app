@@ -74,6 +74,12 @@ def main() -> None:
     except ValueError as error:
         print(f"Invalid input: {error}")
 
+# ----------------------------
+# TODO (keep items even when completed; add date + note)
+# ----------------------------
+# [x] 2026-02-23 Added TODO tracking section for reviewer requirements (Issue #3)
+# [ ] Add a retry loop so user can re-enter month after invalid input
+# [ ] Add README usage examples (inputs/outputs)
 
 if __name__ == "__main__":
     main()
